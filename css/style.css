@@ -8,24 +8,21 @@ p,h1,h2,h3,h4 {
 
 .main {
     margin:0 auto;
-width:70%
+width:70%;
 }
 
 .header {
    height:80px;
     background: rgb(88, 107, 172);
-
-    
+    width: 100%;
 
 }
 .logo {
     float: left;
-padding:5px 12px;
-margin-left:500px;
-
+width:20%;
 }
-.logo img {
-    width: 40px;
+.logo  a img {
+    width: 10%;
 }
 
 
@@ -33,12 +30,13 @@ margin-left:500px;
 text-align: right;
     height:auto;
 padding-top:20px;
-margin-right: 200px;
+width:79%;
+float: left;
 }
 
 .nav ul {
     list-style: none;
-    
+
 }
 
 .nav ul  li {
@@ -51,8 +49,7 @@ margin-right: 200px;
     text-decoration: none;
     padding:12px 12px;
     color: white;
-    margin:0px 5px;
-    
+
 }
 
 .nav ul  li a:hover {
@@ -60,6 +57,12 @@ margin-right: 200px;
  
 }
 
+.auth {
+   position: absolute;
+   width:30px;
+   margin-left:-10px;
+   margin-top:-3px;
+}
 .jumbotron {
 margin-top:-20px;
 height:500px;
@@ -73,28 +76,27 @@ background: linear-gradient(-45deg, rgba(78, 84, 200, .9), rgba(128, 137, 255, .
 .jumbotron h3 {
     color:white;
  padding-top:20px;
- width:1200px;
 margin:0 auto;
 font-weight: 100;
 font-size: 22px;
 }
 
 .content {
-    width:98%;
-    height:500px;
-  border:1px solid black;
+  border-left: 1px solid black;
     padding:30px;
     margin-top:10px;
     margin-top:50px;
-    clear: both;
+
 }
 
 .header-buttons {
-    width:140px;
+    width:11%;
     height:140px;
     border:1px solid white;
     margin:12px 12px;
     float: left;
+    text-align: center
+
 }
 .category-content {
     height:100px;
@@ -104,7 +106,7 @@ font-size: 22px;
 .category-content img {
     text-align: center;
     padding:10px 22px;
-    width:60%;
+    width:80px;
 }
 
 .category-footer {
@@ -114,8 +116,9 @@ font-size: 22px;
 
 #quiz-content {
     padding-top:20px;
-    width:900px;
+    width:80%;
     margin:0 auto;
+    padding-left: 20%;
 
 }
 
@@ -131,8 +134,7 @@ font-size: 22px;
 min-height:400px;
 }
 .content-one-container div {
-    width:350px;
-    height:300px;
+
     float: left;
     margin-top:40px;
     padding:20px;
@@ -292,7 +294,8 @@ margin-left:25px;
 .quize-header {
     width:300px;
     height:auto;
-    margin:0 auto
+    margin:0 auto;
+ 
 }
 .quize-type {
     list-style: none
@@ -356,4 +359,52 @@ margin-top:90px;
 #oval-align  h5 {
     color:white;
     margin-top:22px
+}
+
+.autentication {
+    width:400px;
+
+    border:1px solid black;
+    margin:0 auto;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.autentication p {
+    margin:3px !important;
+    padding:4px !important;
+    text-align: left;
+   
+}
+
+.autentication a {
+    color:black
+}
+
+.autentication a:hover {
+    color:red
+}
+.primary {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
 }
