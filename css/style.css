@@ -85,7 +85,7 @@ font-size: 22px;
   border-left: 1px solid black;
     padding:30px;
     margin-top:10px;
-    margin-top:50px;
+ 
 
 }
 
@@ -163,6 +163,9 @@ min-height:400px;
     height:400px;
     background: #43476b;
 }
+.col-sm-1{
+ 
+}
 .col-sm-3 {
     border:2px solid red;
     width:33%;
@@ -190,13 +193,22 @@ min-height:400px;
     float: left;
 }
 
+.col-sm-9 {
+    width:90%;
+    float: left;
+    padding-top:8px;
+}
+
+
+
 .col-sm-2 {
     width:20%;
     float: left;
+
 }
 
 .row div {
-    float: left;
+    /*float: left;*/
 }
 
 #quize-picture {
@@ -207,12 +219,12 @@ min-height:400px;
 }
 
 #quize-picture textarea {
-    width:300px;
-    height: 50px;
-    border:2px solid rgb(57, 129, 223);
-    border-radius:2px;
-margin-left:25px;
-    margin-top:4px
+    width:200px;
+    height: 30px;
+border-style: dashed;
+    margin-top:4px;
+    font-size: 18px;
+
 }
 
 .inputfile {
@@ -231,16 +243,16 @@ margin-left:25px;
     color: white;
     background-color: black;
     display: inline-block;
-    margin:32px 32px
+    margin:162px 12px
 }
 
 
 .inputfile + label {
     color: #f1e5e6;
-    background-color: #d3394c;
-    line-height: 2;
-    width:200px;
-    padding-left:25px;
+    background-color: #5cb85c;
+    line-height: 1.5;
+    width:180px;
+
     cursor: pointer;
 }
 .inputfile + label svg {
@@ -253,10 +265,10 @@ margin-left:25px;
 }
 
 #forimg {
-    width:300px;
-    height:100px;
-    background-color: #dfc8ca;
-    margin-left:25px;
+    width:200px;
+    height:200px;
+    background-color: #eee;
+    
 }
 
 .h5 {
@@ -266,7 +278,7 @@ margin-left:25px;
 }
 
 .inputfile + label:hover {
-  background-color: rgb(105, 17, 61)
+  background-color: rgb(158, 144, 151)
 }
 
 .form-control {
@@ -279,7 +291,7 @@ margin-left:25px;
     color: #555;
     background-color: #fff;
     background-image: none;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(138, 127, 127);
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -298,19 +310,23 @@ margin-left:25px;
  
 }
 .quize-type {
-    list-style: none
+    list-style: none;
+    margin-top:-5px;
+    margin-left: 25px;
 }
 
 .quize-type li {
     padding:7px;
-    background-color: rgb(88, 107, 172);
-    margin: 12px 12px;
+    background-color:#eee;
+    margin: 1px 12px;
     width:100%;
+    border: 1px solid #bbb;
+  
 }
 
 .quize-type li a {
     text-decoration: none;
-    color:white;
+    color:black;
     font-size:18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width:100%;
@@ -318,7 +334,10 @@ margin-left:25px;
 }
 
 .quize-type li:hover {
-    background-color: blueviolet
+    background-color: #fff
+}
+.quize-type li:visited{
+    background-color: #fff
 }
 
 .footer-content {
@@ -384,27 +403,106 @@ margin-top:90px;
 .autentication a:hover {
     color:red
 }
-.primary {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+
+
+#textfield {
+    height:60px;
+   margin-top:6px;
+   border-style: dashed;
+   width:400px;
+}
+#singleheader {
+    width:400px;
+    border-style: dashed;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inc, .dec {
+
+    color:red;
+ font-size: 25px;
+    padding:3px;
+    font-weight: bold;
+}
+
+.singlelist {
+    margin-top:2px;
+}
+.singlelist li>input  {
+width:360px;
+border-style: dashed;
+margin-top:-14px;
+
+}
+
+.md-pad {
+margin-left:24px;
+height: 250px;
+}
+
+.txtarea {
+    width:100px;
+}
+
+#border-check {
+    border:1px solid rgb(185, 177, 177);
+    padding:7px;
+
+}
+
+#border-check span {
+    font-size: 27px;
+    font-weight: bold;
+    padding:7px;
+
+}
+
+#border-check textarea {
+   width:90%;
+   margin-top:10px;
+   height:45px;
+   font-size: 20px;
+}
+
+#border-check input {
+    padding:8px;
+
+}
+
+.secinput {
+    width:70%;
+    margin-left:20px;
+    border-style: dashed;
+    border:1px solid rgb(212, 201, 201)
+}
+
+.checkbox {
+    margin-left:50px;
+}
+
+table {
+    border:1px solid rgb(201, 191, 191)
+}
+
+table tbody th  {
+    border:1px solid rgb(201, 191, 191);
+    background-color:rgb(201, 191, 191)
+}
+table tr td {
+
+    padding:5px;
+    text-align: center
+}
+
+.linkedquiz li {
+padding: 5px;
+
+}
+
+.linkedquiz li a {
+    text-decoration: none
+}
+.linkedquiz li a:hover {
+    text-decoration: underline
 }
