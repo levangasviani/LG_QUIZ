@@ -1,5 +1,7 @@
 body {
-    background: white
+    background: white;
+    margin:0px;
+    padding:0px;
 }
 p,h1,h2,h3,h4 {
     text-align: center;
@@ -14,12 +16,10 @@ width:70%;
 .header {
    height:80px;
     background: rgb(88, 107, 172);
-    width: 100%;
-
 }
 .logo {
     float: left;
-width:20%;
+width:22%;
 }
 .logo  a img {
     width: 10%;
@@ -30,7 +30,7 @@ width:20%;
 text-align: right;
     height:auto;
 padding-top:20px;
-width:79%;
+width:75%;
 float: left;
 }
 
@@ -82,7 +82,7 @@ font-size: 22px;
 }
 
 .content {
-  border-left: 1px solid black;
+
     padding:30px;
     margin-top:10px;
  
@@ -164,10 +164,11 @@ min-height:400px;
     background: #43476b;
 }
 .col-sm-1{
- 
+ width: 11%;
+ float: left;
 }
 .col-sm-3 {
-    border:2px solid red;
+float: left;
     width:33%;
 }
 
@@ -175,6 +176,24 @@ min-height:400px;
     width:40%;
     float: left;
 }
+
+.col-sm-42 {
+    width:42%;
+    float: left;
+}
+.col-sm-43 {
+    width:43%;
+    float: left;
+}
+.col-sm-44 {
+    width:44%;
+    float: left;
+}
+.col-sm-45 {
+    width:45%;
+    float: left;
+}
+
 .col-sm-5 {
     width:50%;
     float: left;
@@ -184,6 +203,23 @@ min-height:400px;
     float: left;
 }
 
+.col-sm-62 {
+    width:62%;
+    float: left;
+}
+.col-sm-63 {
+    width:63%;
+    float: left;
+}
+
+.col-sm-64 {
+    width:64%;
+    float: left;
+}
+.col-sm-65 {
+    width:65%;
+    float: left;
+}
 .col-sm-7 {
     width:70%;
     float: left;
@@ -206,14 +242,28 @@ min-height:400px;
     float: left;
 
 }
+.col-sm-25 {
+    width:25%;
+    float: left;
 
+}
+.col-sm-23 {
+    width:23%;
+    float: left;
+
+}
+.col-sm-22 {
+    width:22%;
+    float: left;
+
+}
 .row div {
     /*float: left;*/
 }
 
 #quize-picture {
     width:350px;
-    height: 400px;
+
 
 
 }
@@ -304,22 +354,23 @@ border-style: dashed;
 }
 
 .quize-header {
-    width:300px;
+
     height:auto;
     margin:0 auto;
  
 }
 .quize-type {
     list-style: none;
-    margin-top:-5px;
-    margin-left: 25px;
+    margin-top:0px;
+    padding:0;
+
 }
 
 .quize-type li {
     padding:7px;
     background-color:#eee;
     margin: 1px 12px;
-    width:100%;
+  
     border: 1px solid #bbb;
   
 }
@@ -437,8 +488,9 @@ margin-top:-14px;
 }
 
 .md-pad {
-margin-left:24px;
+width:200px;
 height: 250px;
+padding-left:10px;
 }
 
 .txtarea {
@@ -505,4 +557,20 @@ padding: 5px;
 }
 .linkedquiz li a:hover {
     text-decoration: underline
+}
+
+.optionbar {
+    border:1px solid rgb(201, 191, 191);
+  list-style-type: none;
+  padding-left:5px;
+padding-top:0px;
+}
+
+.optionbar li {
+padding-top:2px;
+margin-top:5px;
+}
+.optionbar li div {
+    margin-top:4px;
+    
 }

@@ -3,9 +3,11 @@
         <title>Trivia.com</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/buttons.css">
+        <link rel="stylesheet" href="css/responsize.css">
     </head>
     <body>
             <div class="header">
+                    <div style="margin:0 auto">
                     <div class="logo">
                         <h2>
                            <a href="trivia.html"> <img src="img/logo.png"/></a>
@@ -19,19 +21,19 @@
                                     <li><a href="#">QuizName1</a></li>
                                     <li><a href="#">QuizName1</a></li>
                                     <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#"><img src="img/auth.png" class="auth"/></a></li>
+                                    <!--<li><a href="#"><img src="img/auth.png" class="auth"/></a></li>-->
                                     <li><a href="auth.html">შესვლა / რეგისტრაცია</a></li>
                                 </ul>
                             </div>
                        
                                 
-                                
+                                </div>
                         
                     </div>
                     <div class="content">
-                            <div class="row" style="width:50%;margin:0 auto;height:300px;">
+                            <div class="row" style="width:980px;margin:0 auto;height:300px;">
                     
-                                <div class="col-sm-2">
+                                <div class="col-sm-22">
                                     <!--<h5 class="h5">ქვიზის სურათი</h5>-->
                                     <form action="#" enctype="multipart/form-data" id="quize-picture">
                                         <div id="forimg">
@@ -46,7 +48,7 @@
                                         <!-- <textarea></textarea>-->
                                     </form>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-42">
                     
                                     <form action="#" class="quize-header">
                                         <input type="text" value="Quiz Title" class="form-control" id="singleheader">
@@ -73,13 +75,13 @@
                                             </li>
                     
                                         </ul>
-                                        <div class="col-sm-1" style="float:right;margin-top:-10px;">
+                                     <!--   <div class="col-sm-1" style="float:right;margin-top:-10px;">
                                             <span class="inc">+</span>
                                             <span class="dec">-</span>
-                                        </div>
+                                        </div>-->
                                     </form>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-25">
                     
                                     <ul class="quize-type">
                                         <li>
@@ -103,6 +105,33 @@
                                             </a>
                                         </li>
                                     </ul>
+                                    <ul class="optionbar">
+                                            <li style="background-color: #eee;height:20px;">Quiz Options</li>
+                                            <li>
+                                                <div >
+                                                    <span>Language</span>
+                                                    <select>
+                                                        <option value="ENGLISH">ENGLISH</option>
+                                                        <option value="GEORGIAN">GEORGIAN</option>
+                                                    </select>
+                                                  </div>
+                                                <div>
+                                                    <span>Yellow Box <span>?</span></span>
+                                                    <select>
+                                                        <option value="NO">NO</option>
+                                                        <option value="YES">YES</option>
+                                                    </select>
+                                                </div>
+                                               
+                                                <div>
+                                                    <span>Mobile Design <span>?</span></span>
+                                                    <select>
+                                                        <option value="DEFAULT">DEFAULT</option>
+                                                        <option value="SCROLL">SCROLL</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
                     
                                 </div>
                     
@@ -110,7 +139,7 @@
                     
                             </div>
 
-                            <div class="row" style="width:30%;margin:0 auto;height:150px;">
+                            <div class="row" style="width:500px;margin:0 auto;height:150px;">
                                     <div class="col-sm-2">
                                         <input type="text" style="border-style: dashed;
                                                 width:80px;height:40px;
