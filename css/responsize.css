@@ -3,6 +3,14 @@
        font-size:12px;
        padding:1px 8px;
    }
+    .category-content img {
+        width:65%;
+        padding:0;
+        margin-top:20%;
+    }
+    .category-footer {
+        font-size: 70%;
+    }
   }
 
 
@@ -11,6 +19,10 @@
         font-size:10px;
         padding:1px 1px;
     }
+    .content-one-container div {
+        width:28%;
+    }
+
    }
 
    @media only screen and (max-width: 700px) {
@@ -18,6 +30,10 @@
         font-size:9px;
         padding:1px 1px;
     }
+    .content-one-container div {
+        width:25%;
+    }
+   
    }
 
   @media only screen and (max-width: 600px) {
@@ -25,12 +41,19 @@
         font-size:6px;
         padding:1px 1px;
     }
+    .content-one-container div {
+        width:23%;
+    }
+ 
    }
 
    @media only screen and (max-width: 500px) {
     .nav ul li a {
         font-size:6px;
         padding:1px 1px;
+    }
+    .category-footer {
+        font-size: 50%;
     }
    }
 
@@ -39,4 +62,8 @@
         font-size:4.8px;
         padding:1px 1px;
     }
+    .category-footer {
+        font-size: 40%;
+    }
+  
    }

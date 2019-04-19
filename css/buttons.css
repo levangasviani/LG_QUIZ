@@ -97,3 +97,25 @@
     background-color: #c04106;
     border-color: #c04106;
 }
+
+
+.mains {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    color: #000;
+  background-color: white;
+    border-color: #b6afac; 
+
+}
