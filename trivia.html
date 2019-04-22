@@ -4,25 +4,25 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/buttons.css">
         <link rel="stylesheet" href="css/responsize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     </head>
     <body>
             <div class="header">
                 <div style="margin:0 auto">
                     <div class="logo">
                         <h2>
-                           <a href="trivia.html"> <img src="img/logo.png"/></a>
+                           <a href="trivia.html"> <img src="img/logo.png"/><span class="brand">LG Quiz</span></a>
                         </h2>
+                      
                     </div>
                         <div class="nav">
                                 <ul>
-                                    <li><a href="quizelist.html">Create Quize</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <!--<li><a href="#"><img src="img/auth.png" class="auth"/></a></li>-->
-                                    <li><a href="auth.html">შესვლა / რეგისტრაცია</a></li>
+                                    <li><a href="#">ყველა ქვიზი</a></li>
+                                    <li><a href="quizelist.html">შექმნა / რედაქტირება</a></li>
+                                    <li><a href="#">კატეგორიები</a></li>
+                                    <li><a href="#">შემთხვევითი</a></li>
+                                   <li><a href="auth.html">შესვლა / რეგისტრაცია</a></li>
                                 </ul>
                             </div>
                          
@@ -32,52 +32,109 @@
                     </div>
 
                 <div class="jumbotron">
-               <h1>WELCOME TO VANDA</h1>
+              <!-- <h1>WELCOME TO VANDA</h1>
                <h3>Vanda is a pixel perfect & fully responsive creative multi purpose one page Html5 template based on bootstrap & designed with attention to details, flexibility and performance.</h3>
-               <div id="quiz-content">
+              -->
+              <div class="quizeposition">
+              <div id="quiz-content">
+
                <div class="header-buttons">
-                    <div class="category-content"><img src="img/pop.png"></div>
+                    <div class="category-content"><!--<img src="img/music.jpg">-->
+                        <i class="fa fa-music" id="falogo"></i></div>
                     <div class="category-footer">
-                        Pop Music
+                        მუსიკა
                     </div>
                 </div>
 
 
 
                 <div class="header-buttons">
-                    <div class="category-content"><img src="img/pop.png"></div>
+                    <div class="category-content">
+                            <i class='fas fa-book' id = "falogo"></i>
+                    </div>
                     <div class="category-footer">
-                        Pop Music
+                        ლიტერატურა
                     </div>
                 </div>
 
 
 
                 <div class="header-buttons">
-                    <div class="category-content"><img src="img/pop.png"></div>
+                    <div class="category-content">
+                            <i class="fas fa-palette"  id="falogo"></i>
+                    </div>
                     <div class="category-footer">
-                        Pop Music
+                        ხელოვნება
                     </div>
                 </div>
 
 
 
                 <div class="header-buttons">
-                    <div class="category-content"><img src="img/pop.png"></div>
+                    <div class="category-content">
+                        <i class="fa fa-film" id = "falogo"></i>
+                    </div>
                     <div class="category-footer">
-                        Pop Music
+                        ფილმები
                     </div>
                 </div>
 
 
-                <div class="header-buttons">
-                    <div class="category-content"><img src="img/pop.png"></div>
-                    <div class="category-footer">
-                        Pop Music
-                    </div>
-                </div>
+            
             <div style="clear: both"></div>
-                        </div></div>
+                        </div>
+                    
+                        <div id="quiz-content">
+
+                        <div class="header-buttons">
+                                <div class="category-content">
+                                        <i class='fa fa-futbol' id="falogo"></i>
+                                    </div>
+                                <div class="category-footer">
+                                    სპორტი
+                                </div>
+                            </div>
+            
+            
+            
+                            <div class="header-buttons">
+                                <div class="category-content">
+                                        <i class='far fa-map' id="falogo"></i>
+                                    </div>
+                                <div class="category-footer">
+                                    გეოგრაფია
+                                </div>
+                            </div>
+            
+            
+            
+                            <div class="header-buttons">
+                                <div class="category-content">
+                                        <i class="fab fa-fort-awesome" id = "falogo"></i>
+                                </div>
+                                <div class="category-footer">
+                                    ისტორია
+                                </div>
+                            </div>
+            
+            
+            
+                            <div class="header-buttons">
+                                <div class="category-content">
+                                        <i class="fas fa-angle-double-right" id = "falogo"></i>
+                                </div>
+                                <div class="category-footer">
+                                    სხვა
+                                </div>
+                            </div>
+            
+            
+                        
+                        <div style="clear: both"></div>
+                                    </div>
+                                </div>
+                    
+                    </div>
       
 <div class="main">
  
@@ -86,44 +143,66 @@
    
         <div class="content-one-header">
 
-            <span>LANDING PAGES</span>
+            <span >ფილმები</span>
         </div>
         <div class="content-one-container">
-            <div><img src="img/cont1.png"></div>
-            <div><img src="img/cont1.png"></div>
-            <div><img src="img/cont1.png"></div>
+            <div><img src="img/dc.jpg">
+                <div class="category-footer-buton" id="butonsf">DC
+                    </div>
+            </div>
+            <div><img src="img/marvell.jpg">
+                <div class="category-footer-buton" id="butonsf">მარველი
+                    </div></div>
+            <div><img src="img/harrypotter.png">
+                <div class="category-footer-buton" id="butonsf">ჰარი პოტერი
+                    </div></div>
             
        
     </div>
-    <div style="clear: both;"></div>
-        <h2>MORE QUIZE</h2>
-
+  
+        <div class="morebutton">მეტი &nbsp <i class="fas fa-angle-right"></i></div>
+        <div style="clear: both;"></div>
     </div>
 
     <div class="content">
         <div class="content-one-header">
-            <span>LANDING PAGES</span>
+            <span>გეოგრაფია</span>
         </div>
         <div class="content-one-container">
-            <div><img src="img/cont1.png"></div>
-            <div><img src="img/cont1.png"></div>
-            <div><img src="img/cont1.png"></div>
+            <div><img src="img/World_map_transparent.jpg">
+                <div class="category-footer-buton" id="butonsf">ქვეყნები
+                    </div>
+            </div>
+            <div><img src="img/famous places.jpg">
+                <div class="category-footer-buton" id="butonsf" >ქალაქები
+                    </div></div>
+            <div><img src="img/georgia.png">
+                <div class="category-footer-buton" id="butonsf">საქართველო
+                    </div></div>
         </div>
+        
+        <div class="morebutton">მეტი &nbsp <i class="fas fa-angle-right"></i></div>
         <div style="clear: both;"></div>
-        <h2>MORE QUIZE</h2>
     </div>
 
     <div class="content">
         <div class="content-one-header">
-            <span>LANDING PAGES</span>
+            <span>სპორტი</span>
         </div>
         <div class="content-one-container">
-            <div><img src="img/cont1.png"></div>
-            <div><img src="img/cont1.png"></div>
-            <div><img src="img/cont1.png"></div>
+            <div><img src="img/football.jpg">
+                <div class="category-footer-buton" id="butonsf">ფეხბურთი
+                    </div></div>
+            <div><img src="img/basketball-court.jpg">
+                <div class="category-footer-buton" id="butonsf">კალათბურთი
+                    </div></div>
+            <div><img src="img/tennis-court.jpg">
+                <div class="category-footer-buton" id="butonsf">ჩოგბურთი
+                    </div></div>
         </div>
+      
+        <div class="morebutton">მეტი &nbsp <i class="fas fa-angle-right"></i></div>
         <div style="clear: both;"></div>
-        <h2>MORE QUIZE</h2>
     </div>
     
 
@@ -131,21 +210,113 @@
 
 </div>
 <div class="footer">
- 
-    <div class="footer-content">
-    <img src="img/logo.png"/>
-  
+ <div class="footer-auto">
+<div class="col-sm-3" >
+    <div class="footerlinks">
+            <span>HEADER</span>
+            <ul class="footerul">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li> 
+                <li>
+                    <a href="#">News</a>
+                </li> 
+                <li>
+                    <a href="#">Blogs</a>
+                </li> 
+            </ul>
+    </div>
+   
+    <div class="footerlinks">
+            <span>HEADER</span>
+           
+            <ul class="footerul">
+                <li>
+                    <a href="#">All quiz</a>
+                </li>
+                <li>
+                    <a href="#">Header1</a>
+                </li>
+                <li>
+                    <a href="#">Header1</a>
+                </li> 
+                <li>
+                    <a href="#">Header1</a>
+                </li> 
+                <li>
+                    <a href="#">Header1</a>
+                </li> 
+            </ul>
+    </div>
+</div>
+<div class="col-sm-3" style="text-align: center;margin-top:70px;">
+        <div class="footer-content">
+                <img src="img/logo.png"/>
+              
+            
+            </div>
+            <div style="margin:0 auto;width:300px;">
+<div class="oval"><i class="fab fa-facebook-square" id="channel-face"></i></div>
+<div class="oval"><i class="fab fa-twitter" aria-hidden="true" id="channel-twitter"></i></div>
+<div class="oval"><i class="fab fa-youtube" id="channel-youtube"></i></div>
 
 </div>
-<div id="oval-align">
-<div class="oval">dfdf</div>
-<div class="oval">df</div>
-<div class="oval">df</div>
-<div class="oval">df</div>
-<div class="oval">df</div>
+<div style="clear: both;"></div>
+<div class="contextfooter">© 2019 G-Projects - All Rights Reserved</div>
+</div>
 
 </div>
-<h5>© 2019 G-Projects - All Rights Reserved</h5>
+ <!---->
+<div class="col-sm-3" >
+        <div class="footerlinks">
+                <span>HEADER</span>
+                <ul class="footerul">
+                    <li>
+                        <a href="#">Header1</a>
+                    </li>
+                    <li>
+                        <a href="#">Header1</a>
+                    </li>
+                    <li>
+                        <a href="#">Header1</a>
+                    </li> 
+                    <li>
+                        <a href="#">Header1</a>
+                    </li> 
+                    <li>
+                        <a href="#">Header1</a>
+                    </li> 
+                </ul>
+        </div>
+        <div class="footerlinks">
+                <span>HEADER</span>
+                <ul class="footerul">
+                    <li>
+                        <a href="#">Header1</a>
+                    </li>
+                    <li>
+                        <a href="#">Header1</a>
+                    </li>
+                    <li>
+                        <a href="#">Header1</a>
+                    </li> 
+                    <li>
+                        <a href="#">Header1</a>
+                    </li> 
+                    <li>
+                        <a href="#">Header1</a>
+                    </li> 
+                </ul>
+        </div>
+</div>
+<div style="clear: both;"></div>
+</div>
 </div>
     </body>
 </html>
