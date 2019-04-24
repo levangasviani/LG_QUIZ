@@ -4,116 +4,109 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/buttons.css">
         <link rel="stylesheet" href="css/responsize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+   
     </head>
     <body>
             <div class="header">
                     <div style="margin:0 auto">
                     <div class="logo">
                         <h2>
-                           <a href="trivia.html"> <img src="img/logo.png"/></a>
-                        </h2>
+                            <a href="trivia.html"> <img src="img/logo.png"/><span class="brand">LG Quiz</span></a>
+                         </h2>
                     </div>
-                        <div class="nav">
-                                <ul>
-                                    <li><a href="quizelist.html">Create Quize</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                    <li><a href="#">QuizName1</a></li>
-                                 <!--   <li><a href="#"><img src="img/auth.png" class="auth"/></a></li>-->
-                                    <li><a href="auth.html">შესვლა / რეგისტრაცია</a></li>
-                                </ul>
-                            </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#">ყველა ქვიზი</a></li>
+                            <li><a href="quizelist.html">შექმნა / რედაქტირება</a></li>
+                            <li><a href="#">კატეგორიები</a></li>
+                            <li><a href="picture.html">შემთხვევითი</a></li>
+                           <li><a href="auth.html">შესვლა / რეგისტრაცია</a></li>
+                        </ul>
+                    </div>
                        </div>
                                 
                                 
                         
                     </div>
-                <div class="content">
-                    <div class="row" style="width:980px;margin:0 auto;height:300px;">
+                <div class="content preview-content">
+                    <div class="row marginandwidth" >
                         
-                   <div class="col-sm-5">
-                  <h1 style="text-align: left;">Multiple</h1>
-                  <p style="text-align: left;">Multiple instructions</p>
-                  <ul>
-                      <li>test Multiple</li>
-                      <li>test2 Multiple</li>
-                      <li>test3 Multiple</li>
-                  </ul>
-                  <p style="text-align: left;">Quiz by <strong>SIUS</strong></p>
-                  <div>
-                      <div class="col-sm-14">
-                          <button class="default">Profile</button>
-                      </div>
-                      <div class="col-sm-16">
-                        <button class="default">Quizzes</button>
-                    </div>
-                    <div class="col-sm-2">
-                        <button class="primary">Subscribe</button>
-                    </div>
+                            <div class="col-sm-5">
+                                    <div class="col-sm-5">
+                                        <img src="img/World_map_transparent.jpg" class="leftimg">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h1 style="text-align: left;">ქალაქები</h1>
+                                        <p style="text-align: left;">ინსტრუქცია</p>
+                                        <ul>
+                                            <li>პუნქტი 1</li>
+                                            <li>პუნქტი 2</li>
+                                            <li>პუნქტი 3</li>
+                                        </ul>
+                                        <p style="text-align: left;">ავტორი
+                                            <strong>SIUS</strong>
+                                        </p>
+                                    </div>
+                                    <div>
+    
                     <div class="col-sm-9" style="padding-top:20px">
-                    <button class="warning" style="width:200px;background-color: #5cb85c;color:white;font-size:20px">Start Quiz</button>
+                    <button class="warning" style="width:200px;background-color: #5cb85c;color:white;font-size:20px">დაწყება</button>
                     </div>
                     <div class="col-sm-2" style="margin-top:20px;"> 
-                            <input type="text" style="border-style: dashed;
-                            width:80px;height:40px;
-                            font-size: 25px;
-                            color:green;
-                            text-align: center;" value="4:00">
+                            <input type="text" class="timerinput" value="4:00">
                         </div>
                   </div>
                
                 
                 
                     <div class="col-sm-5" style="margin-top:20px;">
-                        <input type="text" style="border-style: dashed;" value="Enter answer here"
-                        class="form-control">
-                        <pre>0/ 0 guessed</pre>
+                        <pre>ქულა: 0 / 0 </pre>
                     </div>
                     <div class="col-sm-6" >
-                      <div class="multipleansver">
-                        <pre>  <span>1</span> multiple</pre>
-                        <button class="mains">Ansver1</button>
-                        <button class="mains">Ansver2</button>
-                        <button class="mains">Ansver3</button>
-                        <button class="mains">Ansver4</button>
+                      <div class="multipleansver" id="border-check">
+                            <pre>  <span>1</span> შეკითხვა </pre>
+                            <button class="mains">პასუხი 1</button>
+                            <button class="mains">პასუხი 2</button>
+                            <button class="mains">პასუხი 3</button>
+                            <button class="mains">პასუხი 4</button>
                     </div>
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="multipleansver">
-                            <pre>  <span>1</span> multiple</pre>
-                            <button class="mains">Ansver1</button>
-                            <button class="primary">Ansver2</button>
-                            <button class="mains">Ansver3</button>
-                            <button class="primary">Ansver4</button>
+                        <div class="multipleansver" id="border-check">
+                                <pre>  <span>2</span> შეკითხვა </pre>
+                                <button class="mains">პასუხი 1</button>
+                                <button class="primary">პასუხი 2</button>
+                                <button class="primary">პასუხი 3</button>
+                                <button class="mains">პასუხი 4</button>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="multipleansver">
-                                <pre>  <span>1</span> multiple</pre>
-                                <button class="primary">Ansver1</button>
-                                <button class="primary">Ansver2</button>
-                                <button class="primary">Ansver3</button>
-                                <button class="mains">Ansver4</button>
+                            <div class="multipleansver" id="border-check">
+                                    <pre>  <span>3</span> შეკითხვა </pre>
+                                    <button class="mains">პასუხი 1</button>
+                                    <button class="warning">პასუხი 2</button>
+                                    <button class="warning">პასუხი 3</button>
+                                    <button class="mains">პასუხი 4</button>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="multipleansver">
-                                    <pre>  <span>1</span> multiple</pre>
-                                    <button class="mains">Ansver1</button>
-                                    <button class="mains">Ansver2</button>
-                                    <button class="danger">Ansver3</button>
-                                    <button class="warning">Ansver4</button>
+                                <div class="multipleansver" id="border-check">
+                                        <pre>  <span>4</span> შეკითხვა </pre>
+                                        <button class="warning">პასუხი 1</button>
+                                        <button class="danger">პასუხი 2</button>
+                                        <button class="mains">პასუხი 3</button>
+                                        <button class="danger">პასუხი 4</button>
                                     </div>
                                 </div>
                 
                     </div>
                    
-                    <div class="col-sm-4">
+                    <div class="col-sm-3" style="float: right;">
 
-                   <div style="background-color: #f2eae1;height:500px;border: 1px solid rgba(0,0,0,.2);">
+                   <div class="rightquestion">
 <p> New and Popular  
     </p>
                     <ul class="newandpop">
@@ -151,6 +144,124 @@
 
 
 
-                <div class="footer"></div>
+            <div class="footer">
+                <div class="footer-auto" >
+               <div class="col-sm-3" >
+                   <div class="footerlinks">
+                           <span>მთავარი</span>
+                           <ul class="footerul">
+                               <li>
+                                   <a href="#">მთავარი გვერდი</a>
+                               </li>
+                               <li>
+                                   <a href="#">ჩვენ შესახებ</a>
+                               </li>
+                               <li>
+                                   <a href="#">დაგვიკავშირდით</a>
+                               </li> 
+                               <li>
+                                   <a href="#">სიახლეები</a>
+                               </li> 
+                               <li>
+                                   <a href="#">დახმარება</a>
+                               </li> 
+                           </ul>
+                   </div>
+                  
+                   <div class="footerlinks">
+                           <span>მენიუ</span>
+                          
+                           <ul class="footerul">
+                               <li>
+                                   <a href="#">ყველა ქვიზი</a>
+                               </li>
+                               <li>
+                                   <a href="#">შექმნა / რედაქტირება</a>
+                               </li>
+                               <li>
+                                   <a href="#">კატეგორიები</a>
+                               </li> 
+                               <li>
+                                   <a href="#">შემთხვევითი</a>
+                               </li> 
+                               <li>
+                                   <a href="auth.html">ავტორიზაცია</a>
+                               </li> 
+                           </ul>
+                   </div>
+               </div>
+               <div class="col-sm-3" style="text-align: center;margin-top:70px;">
+                       <div class="footer-content">
+                               <img src="img/logo.png"/>
+                             
+                           
+                           </div>
+                           <div style="margin:0 auto;width:300px;">
+               <div class="oval"><i class="fab fa-facebook-square" id="channel-face"></i></div>
+               <div class="oval"><i class="fab fa-twitter" aria-hidden="true" id="channel-twitter"></i></div>
+               <div class="oval"><i class="fab fa-youtube" id="channel-youtube"></i></div>
+               <div style="clear: both;"></div>
+               </div>
+               
+               
+               </div>
+               
+               
+                <!---->
+               <div class="col-sm-3" >
+                       <div class="footerlinks">
+                               <span>ქვიზის ტიპები</span>
+                               <ul class="footerul">
+                                   <li>
+                                       <a href="single.html">Single Quiz</a>
+                                   </li>
+                                   <li>
+                                       <a href="picture.html">Picture Quiz</a>
+                                   </li>
+                                   <li>
+                                       <a href="multiple.html">Multiple Quiz</a>
+                                   </li> 
+                                   <li>
+                                       <a href="missing.html">Missing Quiz</a>
+                                   </li> 
+                                   <li>
+                                       <a href="matching.html">Matching Quiz</a>
+                                   </li> 
+                               </ul>
+                       </div>
+                       <div class="footerlinks">
+                               <span>სასარგებლო ბმულები</span>
+                               <ul class="footerul">
+                                   <li>
+                                       <a href="www.facebook.com">Facebook</a>
+                                   </li>
+                                   <li>
+                                       <a href="www.gmail.com/">Mail</a>
+                                   </li>
+                                   <li>
+                                       <a href="https://twitter.com/?lang=en">Twitter</a>
+                                   </li> 
+                                   <li>
+                                       <a href="https://www.instagram.com/">Instagram</a>
+                                   </li> 
+                                 
+                               </ul>
+                       </div>
+               </div>
+               <div style="clear: both;"></div>
+               </div>
+               
+               <div class="footer-auto" style="height:50px;    background-color: #565fa9;margin-top:30px;">
+                   <div class="col-sm-2" style="text-align: right;color:white;padding-top:14px;">© 2019 G-Projects - All Rights Reserved</div>
+                   <div class="col-sm-7" style="text-align: right;color:white;padding-top:14px;">
+                       <ul class="footersec">
+                           <li><a href="#">Terms</a></li>
+                           <li><a href="#">Privacy</a></li>
+                           <li><a href="#">Security</a></li>
+                       </ul>
+                   </div>
+               
+               </div>
+               </div>
                 </body>
                 </html>

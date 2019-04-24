@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../fonts/bpg_nino_mtavruli_bold.ttf');
+  
+  }
+
+  @font-face {
+    font-family: 'footerfont';
+    src: url('../fonts/bpg_arial_2009.ttf');
+   
+}
 body {
     background: white;
     margin:0px;
@@ -7,6 +18,7 @@ p,h1,h2,h3,h4 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace
 }
+
 
 .main {
     margin:0 auto;
@@ -52,15 +64,19 @@ float: left;
 }
 
 .nav ul  li a {
+    font-family: 'MyWebFont';
     text-decoration: none;
     padding:12px 12px;
     color: rgb(85,37,130);
     font-weight: bold;
 
+   
+
 }
 
 .nav ul  li a:hover {
-    color:rgb(204, 189, 198);
+    color:rgb(105, 102, 104);
+    border-bottom:2px solid white
  
 }
 .brand {
@@ -103,16 +119,20 @@ font-size: 22px;
 
 .content {
 
-    padding:30px;
-    margin-top:10px;
+    padding-top: 80px;
     border:1px solid rgb(199, 188, 188);
 
 }
-
+.single-content {
+    padding-top: 120px;
+}
+.preview-content {
+    padding-top: 90px;
+}
 .header-buttons {
-    width: 21.7%;
+    width: 20%;
     line-height: 2em;
-    margin: 12px 12px;
+    margin: 12px 2%;
     float: left;
     text-align: center;
     height: 280px;
@@ -144,7 +164,7 @@ font-size: 22px;
 
 .category-footer {
     text-align: center;
-    padding:0px;
+    padding-top:5px;
     color:rgb(85,37,130);
     background-color: white;
     border-radius:7px;
@@ -155,7 +175,7 @@ font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
     font-weight: bold;
-
+font-family: 'MyWebFont'
 }
 
 
@@ -233,12 +253,18 @@ margin-top:15px;
     margin-top:40px;
     margin-left:20px;
     box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
-
+   
   width:30%
 }
 .content-one-container div img {
     width:100%;
-    height:286px;
+    height:30%;
+   cursor: pointer;
+   transition: all .2s ease-in-out; 
+}
+.content-one-container div img:hover {
+    transform: scale(0.8);
+
 }
 
 .content h2 {
@@ -255,7 +281,6 @@ margin-top:15px;
 }
 .footer {
     width:100%;
-    height:400px;
     background: #43476b;
 }
 .col-sm-1{
@@ -331,6 +356,26 @@ float: left;
 }
 .col-sm-65 {
     width:65%;
+    float: left;
+}
+
+.col-sm-66 {
+    width:66%;
+    float: left;
+}
+
+.col-sm-67 {
+    width:67%;
+    float: left;
+}
+
+.col-sm-68 {
+    width:68%;
+    float: left;
+}
+
+.col-sm-69 {
+    width:69%;
     float: left;
 }
 .col-sm-7 {
@@ -412,7 +457,7 @@ border-style: dashed;
 
 .inputfile + label {
     color: #f1e5e6;
-    background-color: #5cb85c;
+    background-color: #337ab7;
     line-height: 1.5;
     width:180px;
 
@@ -491,7 +536,6 @@ border-style: dashed;
     text-decoration: none;
     color:black;
     font-size:18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width:100%;
   
 }
@@ -525,10 +569,9 @@ margin:0 auto;
     float: left;
     cursor: pointer;
   
-    background-color: white;
     width:40px;
     height: 40px;
-    margin-left:15px;
+    margin-left:15%;
     margin-top:20px;
 }
 
@@ -545,12 +588,13 @@ font-size:17px;
 }
 
 .autentication {
-    width:400px;
-
-    border:1px solid black;
-    margin:0 auto;
+    width: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
     border-radius: 12px;
-    padding: 24px;
+    padding: 44px 24px;
+    /* min-height: 500px; */
+    margin-bottom: 25px;
 }
 
 .autentication p {
@@ -606,16 +650,20 @@ border-style: dashed;
 width:200px;
 height: 250px;
 padding-left:10px;
+
 }
 
 .txtarea {
     width:100px;
+    color: rgb(85,37,130);
+    padding-left:8px;
 }
 
 #border-check {
-    border:1px solid rgb(185, 177, 177);
-    padding:7px;
-
+    border: 2px solid rgb(85,37,130);
+    /*background: linear-gradient(-45deg, rgb(234, 234, 234), rgb(217, 213, 220) );*/
+    border-radius: 7px;
+    margin-top: 12px;
 }
 
 #border-check span {
@@ -630,11 +678,17 @@ padding-left:10px;
    margin-top:10px;
    height:45px;
    font-size: 20px;
+   border: 1px solid rgb(85,37,130);
+   border-radius: 7px;
+   color: rgb(85,37,130);
+   padding-left:14px;
 }
 
 #border-check input {
     padding:8px;
-
+    border: 1px solid rgb(85,37,130);
+    border-radius: 7px;
+    margin-bottom: 8px;
 }
 
 .secinput {
@@ -646,6 +700,7 @@ padding-left:10px;
 
 .checkbox {
     margin-left:50px;
+ border:1px solid red
 }
 
 table {
@@ -702,7 +757,7 @@ padding-top:3px;
 }
 .multipleansver {
     border:1px solid black;
-    width:480px;
+    width:700px;
     margin-top:5px;
 }
 .multipleansver button {
@@ -733,11 +788,16 @@ margin:2px 25px
 width:40%;
 }
 .footerlinks span {
-    color:white;
+    color:rgb(206, 146, 146);
+    font-family: 'MyWebFont';
   
 }
 .footerul {
     margin-top:15px !important;
+    list-style-type: none;
+}
+.footerul li a:hover {
+    text-decoration: underline
 }
 .footer-auto {
 width:100%;
@@ -757,7 +817,7 @@ color:white;
 text-decoration: none;
 text-align: center;
 font-size:110%;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: 'footerfont'
 }
 #butonsf {
     width: 50%;
@@ -787,4 +847,86 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:250%;
     color:#ED3833;
 
+}
+
+.footersec {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.footersec li {
+    display: inline;
+    padding:12px;
+}
+.footersec li a {
+    text-decoration: none;
+    color:white;
+    font-size:14px;
+font-family: 'MyWebFont';
+}
+.margincontent {
+    margin-top:10px;
+}
+
+.bottomcontent{
+    margin-bottom:20px
+}
+.marginbutton {
+    margin:6px;
+}
+.mrgnbot {
+    margin-bottom:15px;
+}
+.apsoluterow{
+    width:500px;margin:0 auto;position: absolute;left:25%
+}
+.apsoluteRows {
+    width:50%;margin:0 auto;margin-bottom:20px
+}
+.timerinput {
+    border-style: dashed;
+                        width:80px;height:40px;
+                        font-size: 25px;
+                        color:green;
+                        text-align: center;
+}
+
+.specolors {
+    color: rgb(85,37,130);
+    padding-left: 14px;
+    font-size:120%;
+}
+.leftimg {
+    width:240px;
+    height:150px;
+padding-top:25px;
+    margin:0px;
+}
+
+.wronganswer {
+    color:red
+}
+.correctanswer {
+    color:green
+}
+.numberstyle {
+    float: left;padding:7px;font-size:150%;
+    
+}
+
+.inputalign{
+    width:80%;margin-left:1%;margin-top:5px;
+}
+.smallsize {
+    font-size:120%;
+}
+.marginandwidth {
+    width:1200px;margin:0 auto;height:300px;
+}
+
+.rightquestion{
+    background-color: #f2eae1;
+    height:500px;
+    border: 1px solid rgba(0,0,0,.2);
+    float: right;
 }
